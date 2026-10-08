@@ -16,9 +16,9 @@
   --ink-soft: #2a2a2a;     /* texto corrido largo sobre blanco */
   --paper-soft: #dcdcdc;   /* texto corrido sobre negro */
   --frame-light: rgba(255, 255, 255, .62); /* marco fino sobre foto */
-  --photo: saturate(.7) sepia(.2) contrast(1.05) brightness(.98);  /* gradación cálida: calma magentas y azules sin perder color */
+  --photo: contrast(1.05) saturate(1.06);  /* color natural, un punto de contraste */
   --overlay: rgba(0, 0, 0, .72);
-  --photo-night: saturate(.5) sepia(.35) hue-rotate(10deg) contrast(1.05) brightness(.97);  /* fotos de noche: apaga el lila y el azul eléctrico */
+  --photo-night: contrast(1.06) saturate(.9) brightness(1.03);  /* fotos de noche: color natural */
 
   /* Tipografía */
   --f-display: "Jost", "Helvetica Neue", Arial, sans-serif;
