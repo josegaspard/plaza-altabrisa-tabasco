@@ -1,17 +1,21 @@
 # Plaza Altabrisa Tabasco — guía de diseño (ley para las 5 páginas)
 
-Concepto: «Luxury Fashion Mall» en clave editorial de moda. Blanco puro + negro del logo, gris del logo
-solo para filetes y rótulos. Líneas de 1 px, esquinas rectas (radio 0), mucho aire, fotos en B/N que
-recuperan el color al pasar el ratón. Manda también CONTRATO-DISENO.md (enchufes data-cc, STORES, EVENTS…).
+Concepto: «Luxury Fashion Mall» como galería boutique. Interfaz en blanco puro + negro del logo, gris del logo
+solo para filetes y rótulos. Líneas de 1 px, esquinas rectas (radio 0), mucho aire, fotos A TODO COLOR con marco
+fino interior (passe-partout), rejillas asimétricas y apariciones suaves al hacer scroll. Una sola banda negra (datos bajo
+el hero) da el ritmo; el resto de la página es blanco y gris niebla. Las fotos del edificio llevan una gradación cálida
+(`--photo`) que calma los magentas y azules de las luces nocturnas sin quitarles color. Manda también CONTRATO-DISENO.md (enchufes data-cc, STORES, EVENTS…).
 
 ## Fuentes (Google Fonts, ya enlazadas en `_shell.html`)
-- **Jost** 300/400/500 → títulos (300), rótulos en mayúsculas (500, tracking `--track`), botones.
-- **Archivo** 400/500/600 → texto corrido, formularios, pie.
+- **Jost** 200/300/400/500 → titulares grandes en 200 (`.hero__title`, `.h-section`, `.page-hero__title`), títulos medianos
+  en 300, rótulos en mayúsculas (500, tracking `--track`), botones.
+- **Hanken Grotesk** 400/500/600 → texto corrido, formularios, pie.
 
 ## Tokens (`:root` en css/site.css) — no escribir colores ni tamaños sueltos
 `--ink #000` · `--ink-2` · `--grey #adadac` (logo; filetes y texto sobre negro) · `--grey-text #6b6b6a` (texto
 secundario sobre blanco) · `--line` · `--line-dark` · `--paper #fff` · `--mist #f4f4f4` (bandas) · `--ink-soft` (texto largo sobre blanco) ·
-`--paper-soft` (texto sobre negro) · `--overlay` / `--overlay-strong` (fondos de modal y lightbox).
+`--paper-soft` (texto sobre negro) · `--overlay` / `--overlay-strong` (fondos de modal y lightbox) ·
+`--photo` (gradación cálida de fotos: `saturate(.7) sepia(.2) contrast(1.05) brightness(.98)`).
 Tamaños: `--fs-xs … --fs-xl`, `--fs-hero` (index), `--fs-page` (páginas internas, enorme). Espacio: `--s1…--s8`,
 `--gutter`, `--maxw`, `--hh` (alto cabecera). `--r: 0`. Prohibido: radios, sombras (el modal lleva filete `--line`), degradados, cursivas.
 
@@ -53,7 +57,16 @@ Tamaños: `--fs-xs … --fs-xl`, `--fs-hero` (index), `--fs-page` (páginas inte
 - Sin «01/02», sin monospace, sin píldoras, sin comillas decorativas, sin © ni año en el pie.
 - Imágenes .jpg/.webp optimizadas, `loading="lazy"` fuera del primer pantallazo, `alt` real. Rutas relativas.
 - Probar a 390/768/1440: 0 errores de consola, sin scroll horizontal. Zonas de toque ≥ 44 px (ya resueltas en el CSS común).
-- Fotos SIEMPRE en B/N (también el hero, `grayscale(1)`); recuperan color al pasar el ratón solo en las tarjetas.
+- Fotos SIEMPRE a todo color: jamás `grayscale`. El único filtro permitido es `filter: var(--photo)`, y solo en fotos de la
+  plaza (`.hero__media img`, `.access__img img`, `.page-hero__media`). Nunca en `.firma img` (fotos de tiendas), logos,
+  carteles ni mapas. Marco fino interior con `::after` (`--frame-light`).
+- Portada: hero con el rótulo arriba y título + lema + botones anclados abajo; banda `.facts-strip` negra (rótulos `--grey`,
+  filetes `rgba(255,255,255,.15)`); «Explora» = 2 fotos + panorámica a todo el ancho (21/8); «Firmas» = 1 foto grande + 2×2
+  (la 6ª tarjeta no se muestra; en móvil 1 grande + 2×2 sin huecos). Encuadre por tienda con `.firma[data-tienda="<slug>"] img`.
+- Logos (`.store-card`, Marcas y directorio): `max-width: 70%; max-height: 46%` para que todos pesen parecido. Si un logo del
+  gestor trae un lienzo con márgenes enormes, recortar el margen del archivo (mismo nombre).
+- Apariciones: la cortina (`clip-path`) va siempre en un hijo (`.access__img`, `.firma img`), nunca en el elemento `.reveal`
+  observado: el observador de scroll no detecta un elemento recortado a cero y la foto se quedaría invisible.
 - El lema «Luxury Fashion Mall» solo va en el logo y en `.hero__lema` del index: no repetirlo en pie, rótulos ni textos verticales.
   El pie termina en un filete vacío (`<div class="footer-bottom" aria-hidden="true"></div>`, ya en `_shell.html`).
 - `data-cc="nombre"` lo sustituye el motor por el nombre del gestor («Altabrisa Tabasco», sin «Plaza»): usarlo solo en rótulos
