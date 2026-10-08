@@ -1,0 +1,8 @@
+/* Directorio — complementos de la página (tokens de site.css) */
+.dir-section { padding-top: 0; }
+.dir-grid { margin-bottom: var(--s4); }
+@media (max-width: 767px) {
+  /* Pestañas en dos líneas: las cinco familias siempre a la vista */
+  #dirTabs { flex-wrap: wrap; column-gap: 22px; overflow: visible; }
+  #dirTabs .tab { padding: 14px 0; }
+}

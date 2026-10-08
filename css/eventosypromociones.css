@@ -1,0 +1,6 @@
+/* Eventos y Promociones: complementos de página (el resto vive en site.css) */
+.pub-wrap { padding-bottom: var(--s8); }
+.pub-grid > .pub-empty { grid-column: 1 / -1; padding: 0; }
+.pub-follow { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 32px; margin-top: var(--s7); padding-top: var(--s4); border-top: 1px solid var(--line); }
+/* «PROMOCIONES» es la palabra más larga de los títulos internos: que nunca se parta en móvil */
+.page-hero__title { font-size: min(var(--fs-page), 12.8vw); }

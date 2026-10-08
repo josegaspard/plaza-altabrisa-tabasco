@@ -1,0 +1,104 @@
+/* Mapa por niveles — complementa css/site.css */
+:root {
+  /* Familias: escala de grises del logo (negro → gris) */
+  --fam-compras: color-mix(in srgb, var(--grey) 50%, var(--paper));
+  --fam-compras-side: var(--grey);
+  --fam-gastronomia: var(--ink-2);
+  --fam-gastronomia-side: var(--ink);
+  --fam-entretenimiento: color-mix(in srgb, var(--grey-text) 85%, var(--ink));
+  --fam-entretenimiento-side: color-mix(in srgb, var(--grey-text) 50%, var(--ink));
+  --fam-servicios: color-mix(in srgb, var(--grey) 85%, var(--grey-text));
+  --fam-servicios-side: var(--grey-text);
+  --fam-vacio: var(--paper);
+  --fam-vacio-side: var(--mist);
+}
+
+.map-section { padding-top: var(--s7); }
+.map-bar { display: flex; align-items: center; justify-content: space-between; gap: var(--s3) var(--s5); flex-wrap: wrap; border-bottom: 1px solid var(--line); }
+
+/* Leyenda por familia (filtra el plano) */
+.map-legend { display: flex; flex-wrap: wrap; gap: 4px var(--s4); padding: var(--s2) 0; }
+.legend-item {
+  display: inline-flex; align-items: center; gap: 10px; min-height: 44px;
+  font-family: var(--f-display); font-weight: 500; font-size: var(--fs-xs); letter-spacing: var(--track); text-transform: uppercase; color: var(--grey-text);
+  transition: color .2s;
+}
+button.legend-item:hover, .legend-item[aria-pressed="true"] { color: var(--ink); }
+.legend-item[aria-pressed="true"] .legend-item__name { text-decoration: underline; text-underline-offset: 6px; text-decoration-thickness: 1px; }
+.legend-swatch { width: 14px; height: 14px; flex: none; border: 1px solid var(--grey); background: var(--sw); }
+.legend-item__n { color: var(--grey-text); font-weight: 400; letter-spacing: .04em; }
+.legend-item--static { cursor: default; }
+
+/* Plano + ficha lateral */
+.map-layout { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: var(--s5); align-items: start; margin-top: var(--s5); }
+.map-layout .map-wrap { margin-top: 0; min-width: 0; }
+.map-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.map-wrap .m-svg { width: 100%; height: auto; display: block; }
+
+.m-edge { fill: var(--line); }
+.m-floor { fill: var(--mist); }
+.m-void { fill: var(--line); }
+.m-lbl { fill: var(--grey-text); font-family: var(--f-body); font-size: 13px; pointer-events: none; }
+.m-local { outline: none; transition: opacity .25s; }
+.m-local .m-face { stroke: var(--paper); stroke-width: 1; vector-effect: non-scaling-stroke; }
+.m-num { font-family: var(--f-body); font-size: 15px; font-weight: 500; letter-spacing: -.02em; pointer-events: none; fill: var(--paper); transition: fill .2s; }
+
+.m-local[data-fam="compras"] .m-face { fill: var(--fam-compras); }
+.m-local[data-fam="compras"] .m-side { fill: var(--fam-compras-side); }
+.m-local[data-fam="gastronomia"] .m-face { fill: var(--fam-gastronomia); }
+.m-local[data-fam="gastronomia"] .m-side { fill: var(--fam-gastronomia-side); }
+.m-local[data-fam="entretenimiento"] .m-face { fill: var(--fam-entretenimiento); }
+.m-local[data-fam="entretenimiento"] .m-side { fill: var(--fam-entretenimiento-side); }
+.m-local[data-fam="servicios"] .m-face { fill: var(--fam-servicios); }
+.m-local[data-fam="servicios"] .m-side { fill: var(--fam-servicios-side); }
+.m-local[data-fam="vacio"] .m-face { fill: var(--fam-vacio); stroke: var(--grey); }
+.m-local[data-fam="vacio"] .m-side { fill: var(--fam-vacio-side); }
+.m-local:is([data-fam="compras"], [data-fam="servicios"], [data-fam="vacio"]) .m-num { fill: var(--ink); }
+.m-local[data-fam="vacio"] { cursor: default; }
+.m-local:hover .m-num, .m-local.is-hit .m-num { fill: var(--paper); }
+
+/* Resalte: al señalar un local, el resto se apaga; la leyenda filtra por familia */
+.map-wrap.has-hit .m-local:not(.is-hit) { opacity: .28; }
+.map-wrap[data-filter] .m-local { opacity: .18; }
+.map-wrap[data-filter="compras"] .m-local[data-fam="compras"],
+.map-wrap[data-filter="gastronomia"] .m-local[data-fam="gastronomia"],
+.map-wrap[data-filter="entretenimiento"] .m-local[data-fam="entretenimiento"],
+.map-wrap[data-filter="servicios"] .m-local[data-fam="servicios"],
+.map-wrap.has-hit .m-local.is-hit { opacity: 1; }
+
+.map-info { border: 1px solid var(--line); padding: var(--s5) var(--s4); position: sticky; top: calc(var(--hh) + var(--s4)); min-height: 280px; display: flex; flex-direction: column; gap: var(--s3); }
+.map-info__logo { width: 120px; height: 72px; display: grid; place-items: start; }
+.map-info__logo[hidden] { display: none; }
+.map-info__logo img { max-width: 100%; max-height: 100%; object-fit: contain; object-position: left center; }
+.map-info__name { font-size: var(--fs-lg); text-transform: uppercase; letter-spacing: .04em; word-break: break-word; }
+.map-info__meta { color: var(--grey-text); font-size: var(--fs-sm); margin: 0; }
+.map-info__actions { display: flex; flex-direction: column; align-items: flex-start; gap: var(--s4); margin-top: auto; padding-top: var(--s3); }
+.map-info__actions[hidden] { display: none; }
+.map-hint { display: none; color: var(--grey-text); font-size: var(--fs-sm); margin: var(--s2) 0 0; }
+
+/* Listado de locales por nivel */
+.map-list { list-style: none; margin: var(--s5) 0 0; padding: 0; columns: 3 260px; column-gap: var(--s6); }
+.map-list[hidden] { display: none; }
+.map-list li { break-inside: avoid; border-bottom: 1px solid var(--line); }
+.map-list__item { display: flex; align-items: baseline; gap: var(--s3); width: 100%; min-height: 44px; padding: 10px 0; text-align: left; transition: color .2s; }
+.map-list__num { flex: none; width: 4.2em; font-family: var(--f-display); font-weight: 500; font-size: var(--fs-xs); letter-spacing: .08em; color: var(--grey-text); }
+.map-list__name { font-size: var(--fs-sm); text-transform: uppercase; letter-spacing: .03em; }
+.map-list__item:hover .map-list__name { text-decoration: underline; text-underline-offset: 4px; text-decoration-thickness: 1px; }
+.map-list__item.is-empty .map-list__name { color: var(--grey-text); text-transform: none; letter-spacing: 0; }
+.map-list__item.is-empty { cursor: default; }
+.map-list__item.is-empty:hover .map-list__name { text-decoration: none; }
+
+/* Enlace al directorio dentro del modal de tienda */
+.modal .map-dirlink { margin-top: var(--s4); }
+
+@media (max-width: 1079px) {
+  .map-layout { grid-template-columns: minmax(0, 1fr); }
+  .map-info { position: static; min-height: 0; }
+}
+@media (max-width: 759px) {
+  .map-scroll .m-svg { width: 720px; max-width: none; }
+  .map-hint { display: block; }
+  .map-bar { align-items: flex-start; }
+}
+.map-wrap .m-local[data-fam="vacio"]:hover :is(path, polygon, rect) { fill: var(--mist) !important; }
+.map-wrap .m-local[data-fam="vacio"]:hover .m-num { fill: var(--ink); }

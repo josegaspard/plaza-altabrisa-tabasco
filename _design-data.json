@@ -1,0 +1,1388 @@
+{
+ "stores": {
+  "+vision": {
+   "img": "images/tiendas/vision/1.jpg",
+   "logo": "images/locatarios/2.jpg",
+   "fb": "https://www.facebook.com/OpticasMasVisionMexico",
+   "web": "https://www.masvision.mx/",
+   "imgs": [
+    "images/tiendas/vision/1.jpg",
+    "images/tiendas/vision/2.jpg",
+    "images/tiendas/vision/3.jpg",
+    "images/tiendas/vision/4.jpg",
+    "images/tiendas/vision/5.jpg"
+   ],
+   "soon": false
+  },
+  "2cap": {
+   "img": "images/tiendas/2cap/1.jpg",
+   "logo": "images/locatarios/1001.png",
+   "imgs": [
+    "images/tiendas/2cap/1.jpg",
+    "images/tiendas/2cap/2.jpg",
+    "images/tiendas/2cap/3.jpg",
+    "images/tiendas/2cap/4.jpg"
+   ],
+   "soon": false
+  },
+  "a takear": {
+   "img": "images/tiendas/a-takear/1.jpg",
+   "logo": "images/locatarios/5.jpg",
+   "web": "http://www.atakear.com/",
+   "imgs": [
+    "images/tiendas/a-takear/1.jpg"
+   ],
+   "soon": false
+  },
+  "abito": {
+   "img": "images/tiendas/abito/1.jpg",
+   "logo": "images/locatarios/7.jpg",
+   "fb": "https://www.facebook.com/Abito.Lino",
+   "web": "http://www.abito.com.mx/",
+   "imgs": [
+    "images/tiendas/abito/1.jpg"
+   ],
+   "soon": false
+  },
+  "adidas": {
+   "img": "images/tiendas/adidas/1.jpg",
+   "logo": "images/locatarios/12.jpg",
+   "fb": "https://www.facebook.com/adidasmx/?brand_redir=182162001806727",
+   "web": "www.adidas.mx",
+   "imgs": [
+    "images/tiendas/adidas/1.jpg",
+    "images/tiendas/adidas/2.jpg",
+    "images/tiendas/adidas/3.jpg",
+    "images/tiendas/adidas/4.jpg",
+    "images/tiendas/adidas/5.jpg",
+    "images/tiendas/adidas/6.jpg"
+   ],
+   "soon": false
+  },
+  "aldo conti": {
+   "img": "images/tiendas/aldo-conti/1.jpg",
+   "logo": "images/locatarios/22.jpg",
+   "fb": "https://www.facebook.com/aldocontitalia/",
+   "web": "http://www.aldoconti.com",
+   "imgs": [
+    "images/tiendas/aldo-conti/1.jpg",
+    "images/tiendas/aldo-conti/2.jpg"
+   ],
+   "soon": false
+  },
+  "aurora nail's studio": {
+   "img": "images/tiendas/aurora-nails-studio/1.jpg",
+   "logo": "images/locatarios/1107.jpg",
+   "imgs": [
+    "images/tiendas/aurora-nails-studio/1.jpg",
+    "images/tiendas/aurora-nails-studio/2.jpg",
+    "images/tiendas/aurora-nails-studio/3.jpg"
+   ],
+   "soon": false
+  },
+  "barber music & spa": {
+   "img": "images/tiendas/barber-music-spa/1.jpg",
+   "logo": "images/locatarios/868.jpg",
+   "fb": "https://www.facebook.com/barbermusicspa/",
+   "imgs": [
+    "images/tiendas/barber-music-spa/1.jpg",
+    "images/tiendas/barber-music-spa/2.jpg",
+    "images/tiendas/barber-music-spa/3.jpg"
+   ],
+   "soon": false
+  },
+  "bbva": {
+   "img": "images/tiendas/bbva/1.jpg",
+   "logo": "images/locatarios/916.jpg",
+   "ig": "https://www.instagram.com/bbva_mex/?1",
+   "fb": "https://www.facebook.com/bbvaenmexico/?1",
+   "web": "https://www.bbva.mx/",
+   "imgs": [
+    "images/tiendas/bbva/1.jpg",
+    "images/tiendas/bbva/2.jpg"
+   ],
+   "soon": false
+  },
+  "bellisima": {
+   "img": "images/tiendas/bellisima/1.jpg",
+   "logo": "images/locatarios/72.png",
+   "fb": "https://www.facebook.com/BellisimaCosmeticosMX?fref=ts",
+   "web": "http://www.bellisima.com.mx/",
+   "imgs": [
+    "images/tiendas/bellisima/1.jpg",
+    "images/tiendas/bellisima/2.jpg",
+    "images/tiendas/bellisima/3.jpg",
+    "images/tiendas/bellisima/4.jpg"
+   ],
+   "soon": false
+  },
+  "ben and frank": {
+   "img": "images/tiendas/ben-and-frank/1.jpg",
+   "logo": "images/locatarios/1049.jpg",
+   "web": "https://www.benandfrank.com",
+   "imgs": [
+    "images/tiendas/ben-and-frank/1.jpg",
+    "images/tiendas/ben-and-frank/2.jpg"
+   ],
+   "soon": false
+  },
+  "bershka": {
+   "img": "images/tiendas/bershka/1.jpg",
+   "logo": "images/locatarios/76.jpg",
+   "fb": "https://www.facebook.com/mxbershka/",
+   "web": "http://www.bershka.com/mx/es/",
+   "imgs": [
+    "images/tiendas/bershka/1.jpg"
+   ],
+   "soon": false
+  },
+  "best day": {
+   "img": "images/tiendas/best-day/1.jpg",
+   "logo": "images/locatarios/77.jpg",
+   "fb": "https://www.facebook.com/BestDay.Com.Mx/",
+   "web": "http://www.bestday.com.mx/",
+   "imgs": [
+    "images/tiendas/best-day/1.jpg",
+    "images/tiendas/best-day/2.jpg",
+    "images/tiendas/best-day/3.jpg",
+    "images/tiendas/best-day/4.jpg"
+   ],
+   "soon": false
+  },
+  "bizzarro": {
+   "logo": "images/locatarios/83.jpg",
+   "ig": "https://www.instagram.com/joyeriabizzarro/",
+   "fb": "https://www.facebook.com/JoyeriasBizzarroOficial/",
+   "web": "https://www.joyeriasbizzarro.com/",
+   "soon": false
+  },
+  "bodybrite": {
+   "img": "images/tiendas/bodybrite/1.jpg",
+   "logo": "images/locatarios/86.png",
+   "fb": "https://www.facebook.com/BodyBriteMexico",
+   "web": "http://www.bodybrite.mx",
+   "imgs": [
+    "images/tiendas/bodybrite/1.jpg",
+    "images/tiendas/bodybrite/2.jpg",
+    "images/tiendas/bodybrite/3.jpg"
+   ],
+   "soon": false
+  },
+  "bollywood": {
+   "logo": "images/locatarios/87.jpg",
+   "web": "www.bollywood.com.mx",
+   "soon": false
+  },
+  "boston's the gourmet pizza": {
+   "img": "images/tiendas/boston-s-the-gourmet-pizza/1.jpg",
+   "logo": "images/locatarios/89.jpg",
+   "fb": "https://www.facebook.com/Bostons.Altabrisa",
+   "web": "http://www.bostons.com.mx/",
+   "imgs": [
+    "images/tiendas/boston-s-the-gourmet-pizza/1.jpg",
+    "images/tiendas/boston-s-the-gourmet-pizza/2.jpg"
+   ],
+   "soon": false
+  },
+  "burger king": {
+   "img": "images/tiendas/burger-king/1.jpg",
+   "logo": "images/locatarios/98.jpg",
+   "fb": "https://www.facebook.com/burgerkingmexico",
+   "web": "http://www.burgerking.com.mx/",
+   "imgs": [
+    "images/tiendas/burger-king/1.jpg",
+    "images/tiendas/burger-king/2.jpg",
+    "images/tiendas/burger-king/3.jpg",
+    "images/tiendas/burger-king/4.jpg",
+    "images/tiendas/burger-king/5.jpg",
+    "images/tiendas/burger-king/6.jpg",
+    "images/tiendas/burger-king/7.jpg"
+   ],
+   "soon": false
+  },
+  "busher's cocodrile": {
+   "img": "images/tiendas/bushers-cocodrile/1.jpg",
+   "logo": "images/locatarios/1030.jpg",
+   "imgs": [
+    "images/tiendas/bushers-cocodrile/1.jpg",
+    "images/tiendas/bushers-cocodrile/2.jpg",
+    "images/tiendas/bushers-cocodrile/3.jpg"
+   ],
+   "soon": false
+  },
+  "c&a": {
+   "img": "images/tiendas/c-a/1.jpg",
+   "logo": "images/locatarios/102.jpg",
+   "fb": "https://www.facebook.com/cyamoda/",
+   "web": "http://www.cyamoda.com/",
+   "imgs": [
+    "images/tiendas/c-a/1.jpg",
+    "images/tiendas/c-a/2.jpg"
+   ],
+   "soon": false
+  },
+  "capa de ozono": {
+   "img": "images/tiendas/capa-de-ozono/1.jpg",
+   "logo": "images/locatarios/111.jpg",
+   "web": "http://www.capadeozono.com.mx",
+   "imgs": [
+    "images/tiendas/capa-de-ozono/1.jpg",
+    "images/tiendas/capa-de-ozono/2.jpg",
+    "images/tiendas/capa-de-ozono/3.jpg",
+    "images/tiendas/capa-de-ozono/4.jpg"
+   ],
+   "soon": false
+  },
+  "carl's jr": {
+   "img": "images/tiendas/carl-s-jr/1.jpg",
+   "logo": "images/locatarios/112.jpg",
+   "fb": "https://www.facebook.com/CarlsJrMex/",
+   "web": "http://www.carlsjr.com.mx/",
+   "imgs": [
+    "images/tiendas/carl-s-jr/1.jpg",
+    "images/tiendas/carl-s-jr/2.jpg",
+    "images/tiendas/carl-s-jr/3.jpg"
+   ],
+   "soon": false
+  },
+  "chili's": {
+   "img": "images/tiendas/chili-s/1.jpg",
+   "logo": "images/locatarios/130.png",
+   "fb": "https://www.facebook.com/chilismx",
+   "web": "http://www.chilis.com.mx/",
+   "imgs": [
+    "images/tiendas/chili-s/1.jpg",
+    "images/tiendas/chili-s/2.jpg",
+    "images/tiendas/chili-s/3.jpg"
+   ],
+   "soon": false
+  },
+  "cinemex": {
+   "img": "images/tiendas/cinemex/1.jpg",
+   "logo": "images/locatarios/138.png",
+   "fb": "https://www.facebook.com/Cinemex/",
+   "imgs": [
+    "images/tiendas/cinemex/1.jpg",
+    "images/tiendas/cinemex/2.jpg"
+   ],
+   "soon": false
+  },
+  "cloe": {
+   "img": "images/tiendas/cloe/1.jpg",
+   "logo": "images/locatarios/143.jpg",
+   "fb": "https://www.facebook.com/cloe/",
+   "web": "www.cloe.com.mx",
+   "imgs": [
+    "images/tiendas/cloe/1.jpg",
+    "images/tiendas/cloe/2.jpg",
+    "images/tiendas/cloe/3.jpg",
+    "images/tiendas/cloe/4.jpg"
+   ],
+   "soon": false
+  },
+  "colchones atlas": {
+   "logo": "images/locatarios/941.jpg",
+   "fb": "https://www.facebook.com/ColchonesAtlasMX/",
+   "web": "https://www.colchonesatlas.com/",
+   "soon": false
+  },
+  "cong fa": {
+   "img": "images/tiendas/cong-fa/1.jpg",
+   "logo": "images/locatarios/152.jpg",
+   "imgs": [
+    "images/tiendas/cong-fa/1.jpg",
+    "images/tiendas/cong-fa/2.jpg",
+    "images/tiendas/cong-fa/3.jpg"
+   ],
+   "soon": false
+  },
+  "coqueta y audaz": {
+   "img": "images/tiendas/coqueta-y-audaz/1.jpg",
+   "logo": "images/locatarios/156.jpg",
+   "fb": "https://www.facebook.com/coquetayaudaz/",
+   "web": "http://www.coquetayaudaz.com.mx/",
+   "imgs": [
+    "images/tiendas/coqueta-y-audaz/1.jpg",
+    "images/tiendas/coqueta-y-audaz/2.jpg",
+    "images/tiendas/coqueta-y-audaz/3.jpg"
+   ],
+   "soon": false
+  },
+  "crazy snacks": {
+   "img": "images/tiendas/crazy-snacks/1.jpg",
+   "logo": "images/locatarios/940.jpg",
+   "fb": "https://www.facebook.com/CrazySnacksMx/",
+   "web": "http://crazy-snacks.com/",
+   "imgs": [
+    "images/tiendas/crazy-snacks/1.jpg"
+   ],
+   "soon": false
+  },
+  "cristal joyas": {
+   "img": "images/tiendas/cristal-joyas/1.jpg",
+   "logo": "images/locatarios/164.png",
+   "fb": "https://www.facebook.com/cristaljoyas",
+   "web": "https://cristaljoyas.com/",
+   "imgs": [
+    "images/tiendas/cristal-joyas/1.jpg",
+    "images/tiendas/cristal-joyas/2.jpg",
+    "images/tiendas/cristal-joyas/3.jpg"
+   ],
+   "soon": false
+  },
+  "cuadra": {
+   "img": "images/tiendas/cuadra/1.jpg",
+   "logo": "images/locatarios/167.jpg",
+   "web": "http://www.cuadra.com.mx/",
+   "imgs": [
+    "images/tiendas/cuadra/1.jpg",
+    "images/tiendas/cuadra/2.jpg",
+    "images/tiendas/cuadra/3.jpg"
+   ],
+   "soon": false
+  },
+  "daniel espinosa": {
+   "img": "images/tiendas/daniel-espinosa/1.jpg",
+   "logo": "images/locatarios/174.jpg",
+   "fb": "https://www.facebook.com/danielespinosajewelry/timeline?ref=page_internal",
+   "web": "https://www.shopdanielespinosa.com/mx/",
+   "imgs": [
+    "images/tiendas/daniel-espinosa/1.jpg",
+    "images/tiendas/daniel-espinosa/2.jpg",
+    "images/tiendas/daniel-espinosa/3.jpg",
+    "images/tiendas/daniel-espinosa/4.jpg"
+   ],
+   "soon": false
+  },
+  "dayrom": {
+   "logo": "images/locatarios/932.jpg",
+   "soon": false
+  },
+  "devlyn": {
+   "img": "images/tiendas/devlyn/1.jpg",
+   "logo": "images/locatarios/187.jpg",
+   "fb": "https://www.facebook.com/opticasdevlyn/",
+   "web": "http://www.devlyn.com.mx/",
+   "imgs": [
+    "images/tiendas/devlyn/1.jpg",
+    "images/tiendas/devlyn/2.jpg",
+    "images/tiendas/devlyn/3.jpg",
+    "images/tiendas/devlyn/4.jpg",
+    "images/tiendas/devlyn/5.jpg",
+    "images/tiendas/devlyn/6.jpg",
+    "images/tiendas/devlyn/7.jpg",
+    "images/tiendas/devlyn/8.jpg"
+   ],
+   "soon": false
+  },
+  "domino's": {
+   "img": "images/tiendas/domino-s/1.jpg",
+   "logo": "images/locatarios/196.jpg",
+   "fb": "https://www.facebook.com/DominosMexico",
+   "web": "http://dominos.com.mx/",
+   "imgs": [
+    "images/tiendas/domino-s/1.jpg",
+    "images/tiendas/domino-s/2.jpg",
+    "images/tiendas/domino-s/3.jpg"
+   ],
+   "soon": false
+  },
+  "dorothy gaynor": {
+   "img": "images/tiendas/dorothy-gaynor/1.jpg",
+   "logo": "images/locatarios/201.jpg",
+   "web": "http://www.dorothygaynor.com/",
+   "imgs": [
+    "images/tiendas/dorothy-gaynor/1.jpg",
+    "images/tiendas/dorothy-gaynor/2.jpg",
+    "images/tiendas/dorothy-gaynor/3.jpg"
+   ],
+   "soon": false
+  },
+  "dp street": {
+   "logo": "images/locatarios/935.jpg",
+   "web": "https://www.dpstreet.mx/",
+   "soon": false
+  },
+  "dportenis": {
+   "img": "images/tiendas/dportenis/1.jpg",
+   "logo": "images/locatarios/202.jpg",
+   "ig": "https://www.instagram.com/dportenis/",
+   "fb": "https://www.facebook.com/dportenis/",
+   "web": "https://www.dportenis.mx",
+   "imgs": [
+    "images/tiendas/dportenis/1.jpg",
+    "images/tiendas/dportenis/2.jpg",
+    "images/tiendas/dportenis/3.jpg"
+   ],
+   "soon": false
+  },
+  "el galeon": {
+   "web": "http://www.elgaleon.com.mx",
+   "soon": false
+  },
+  "el palacio de hierro": {
+   "logo": "images/locatarios/215.jpg",
+   "web": "http://www.elpalaciodehierro.com/",
+   "soon": false
+  },
+  "el senor de la birria": {
+   "img": "images/tiendas/el-senor-de-la-birria/1.jpg",
+   "logo": "images/locatarios/1118.png",
+   "ig": "instagram.com/elsenordela.birria?igshid=MzRlODBiNWFlZA%3D%3D",
+   "fb": "https://www.facebook.com/share/15wBGkA7mj/",
+   "imgs": [
+    "images/tiendas/el-senor-de-la-birria/1.jpg",
+    "images/tiendas/el-senor-de-la-birria/2.jpg",
+    "images/tiendas/el-senor-de-la-birria/3.jpg"
+   ],
+   "soon": false
+  },
+  "ensaladetti": {
+   "img": "images/tiendas/ensaladetti/1.jpg",
+   "logo": "images/locatarios/221.jpg",
+   "fb": "https://www.facebook.com/Ensaladetti-Villahermosa-426489760739783/",
+   "web": "http://www.ensaladetti.com/home",
+   "imgs": [
+    "images/tiendas/ensaladetti/1.jpg"
+   ],
+   "soon": false
+  },
+  "europiel": {
+   "logo": "images/locatarios/225.jpg",
+   "fb": "https://www.facebook.com/EuropielLaser/",
+   "web": "http://www.europiel.com.mx/",
+   "soon": false
+  },
+  "ferrioni": {
+   "img": "images/tiendas/ferrioni/1.jpg",
+   "logo": "images/locatarios/235.jpg",
+   "ig": "https://www.instagram.com/ferrioni_mx/",
+   "fb": "https://www.facebook.com/Ferrionimx/",
+   "web": "https://ferrioni.com/",
+   "imgs": [
+    "images/tiendas/ferrioni/1.jpg",
+    "images/tiendas/ferrioni/2.jpg",
+    "images/tiendas/ferrioni/3.jpg"
+   ],
+   "soon": false
+  },
+  "flexi": {
+   "img": "images/tiendas/flexi/1.jpg",
+   "logo": "images/locatarios/241.png",
+   "fb": "https://www.facebook.com/flexi/",
+   "web": "http://www.flexi.com.mx/",
+   "imgs": [
+    "images/tiendas/flexi/1.jpg",
+    "images/tiendas/flexi/2.jpg"
+   ],
+   "soon": false
+  },
+  "gameplanet": {
+   "img": "images/tiendas/gameplanet/1.jpg",
+   "logo": "images/locatarios/260.jpg",
+   "fb": "https://www.facebook.com/gameplanetmx",
+   "web": "http://gameplanet.com/",
+   "imgs": [
+    "images/tiendas/gameplanet/1.jpg",
+    "images/tiendas/gameplanet/2.jpg",
+    "images/tiendas/gameplanet/3.jpg",
+    "images/tiendas/gameplanet/4.jpg",
+    "images/tiendas/gameplanet/5.jpg",
+    "images/tiendas/gameplanet/6.jpg",
+    "images/tiendas/gameplanet/7.jpg",
+    "images/tiendas/gameplanet/8.jpg",
+    "images/tiendas/gameplanet/9.jpg"
+   ],
+   "soon": false
+  },
+  "gnc": {
+   "img": "images/tiendas/gnc/1.jpg",
+   "logo": "images/locatarios/270.jpg",
+   "fb": "https://www.facebook.com/GNCMexico/",
+   "web": "http://www.gnc.com.mx/",
+   "imgs": [
+    "images/tiendas/gnc/1.jpg",
+    "images/tiendas/gnc/2.jpg",
+    "images/tiendas/gnc/3.jpg"
+   ],
+   "soon": false
+  },
+  "goc make up": {
+   "img": "images/tiendas/goc-make-up/1.jpg",
+   "logo": "images/locatarios/271.png",
+   "fb": "https://www.facebook.com/GocMakeUp",
+   "web": "http://www.gocmakeup.com/",
+   "imgs": [
+    "images/tiendas/goc-make-up/1.jpg",
+    "images/tiendas/goc-make-up/2.jpg",
+    "images/tiendas/goc-make-up/3.jpg"
+   ],
+   "soon": false
+  },
+  "guess": {
+   "img": "images/tiendas/guess/1.jpg",
+   "logo": "images/locatarios/276.jpg",
+   "fb": "https://www.facebook.com/GUESSMexico",
+   "web": "https://www.guess.mx/es/",
+   "imgs": [
+    "images/tiendas/guess/1.jpg",
+    "images/tiendas/guess/2.jpg",
+    "images/tiendas/guess/3.jpg"
+   ],
+   "soon": false
+  },
+  "hang ten": {
+   "img": "images/tiendas/hang-ten/1.jpg",
+   "logo": "images/locatarios/279.jpg",
+   "web": "http://www.hangten.com.mx/",
+   "imgs": [
+    "images/tiendas/hang-ten/1.jpg",
+    "images/tiendas/hang-ten/2.jpg",
+    "images/tiendas/hang-ten/3.jpg",
+    "images/tiendas/hang-ten/4.jpg"
+   ],
+   "soon": false
+  },
+  "harmon hall": {
+   "img": "images/tiendas/harmon-hall/1.jpg",
+   "logo": "images/locatarios/280.jpg",
+   "fb": "https://www.facebook.com/HarmonHallAltabrisa/",
+   "web": "http://www.harmonhall.com/",
+   "imgs": [
+    "images/tiendas/harmon-hall/1.jpg"
+   ],
+   "soon": false
+  },
+  "ihop": {
+   "img": "images/tiendas/ihop/1.jpg",
+   "logo": "images/locatarios/296.jpg",
+   "fb": "https://www.facebook.com/IHOPVillahermosa",
+   "web": "http://www.ihopmexico.com.mx",
+   "imgs": [
+    "images/tiendas/ihop/1.jpg",
+    "images/tiendas/ihop/2.jpg",
+    "images/tiendas/ihop/3.jpg",
+    "images/tiendas/ihop/4.jpg",
+    "images/tiendas/ihop/5.jpg",
+    "images/tiendas/ihop/6.jpg",
+    "images/tiendas/ihop/7.jpg",
+    "images/tiendas/ihop/8.jpg",
+    "images/tiendas/ihop/9.jpg",
+    "images/tiendas/ihop/10.jpg"
+   ],
+   "soon": false
+  },
+  "innovasport": {
+   "img": "images/tiendas/innovasport/1.jpg",
+   "logo": "images/locatarios/306.png",
+   "web": "http://www.innovasport.com/",
+   "imgs": [
+    "images/tiendas/innovasport/1.jpg",
+    "images/tiendas/innovasport/2.jpg",
+    "images/tiendas/innovasport/3.jpg",
+    "images/tiendas/innovasport/4.jpg"
+   ],
+   "soon": false
+  },
+  "ishop": {
+   "img": "images/tiendas/ishop/1.jpg",
+   "logo": "images/locatarios/310.jpg",
+   "fb": "https://www.facebook.com/iShopMixupMX/",
+   "web": "http://www.ishopmixup.com/",
+   "imgs": [
+    "images/tiendas/ishop/1.jpg",
+    "images/tiendas/ishop/2.jpg",
+    "images/tiendas/ishop/3.jpg",
+    "images/tiendas/ishop/4.jpg",
+    "images/tiendas/ishop/5.jpg",
+    "images/tiendas/ishop/6.jpg",
+    "images/tiendas/ishop/7.jpg"
+   ],
+   "soon": false
+  },
+  "jarking": {
+   "img": "images/tiendas/jarking/1.jpg",
+   "logo": "images/locatarios/316.jpg",
+   "fb": "https://www.facebook.com/JarkingShoes/",
+   "web": "http://www.jarking.com.mx",
+   "imgs": [
+    "images/tiendas/jarking/1.jpg",
+    "images/tiendas/jarking/2.jpg",
+    "images/tiendas/jarking/3.jpg"
+   ],
+   "soon": false
+  },
+  "jersace": {
+   "img": "images/tiendas/jersace/1.jpg",
+   "logo": "images/locatarios/318.jpg",
+   "fb": "https://www.facebook.com/jersaceboutique",
+   "imgs": [
+    "images/tiendas/jersace/1.jpg"
+   ],
+   "soon": false
+  },
+  "juguetron": {
+   "img": "images/tiendas/juguetron/1.jpg",
+   "logo": "images/locatarios/327.jpg",
+   "web": "http://www.juguetron.mx/",
+   "imgs": [
+    "images/tiendas/juguetron/1.jpg",
+    "images/tiendas/juguetron/2.jpg",
+    "images/tiendas/juguetron/3.jpg",
+    "images/tiendas/juguetron/4.jpg",
+    "images/tiendas/juguetron/5.jpg",
+    "images/tiendas/juguetron/6.jpg",
+    "images/tiendas/juguetron/7.jpg"
+   ],
+   "soon": false
+  },
+  "julio": {
+   "img": "images/tiendas/julio/1.jpg",
+   "logo": "images/locatarios/328.jpg",
+   "fb": "https://www.facebook.com/JULIOMODA",
+   "web": "http://www.julio.com/",
+   "imgs": [
+    "images/tiendas/julio/1.jpg",
+    "images/tiendas/julio/2.jpg",
+    "images/tiendas/julio/3.jpg",
+    "images/tiendas/julio/4.jpg",
+    "images/tiendas/julio/5.jpg",
+    "images/tiendas/julio/6.jpg",
+    "images/tiendas/julio/7.jpg",
+    "images/tiendas/julio/8.jpg"
+   ],
+   "soon": false
+  },
+  "karukay": {
+   "img": "images/tiendas/karukay/1.jpg",
+   "logo": "images/locatarios/332.jpg",
+   "fb": "https://www.facebook.com/KarukaySushi/",
+   "imgs": [
+    "images/tiendas/karukay/1.jpg"
+   ],
+   "soon": false
+  },
+  "klippers": {
+   "logo": "images/locatarios/344.jpg",
+   "fb": "https://www.facebook.com/PeluqueriaKlippersMexico/",
+   "web": "http://peluqueriaklippers.com/index.html",
+   "soon": false
+  },
+  "l'occitane": {
+   "img": "images/tiendas/l-occitane/1.jpg",
+   "logo": "images/locatarios/351.jpg",
+   "ig": "https://www.instagram.com/loccitane_mx/",
+   "fb": "https://www.facebook.com/LOccitane.Mex",
+   "web": "http://mx.loccitane.com/",
+   "imgs": [
+    "images/tiendas/l-occitane/1.jpg",
+    "images/tiendas/l-occitane/2.jpg",
+    "images/tiendas/l-occitane/3.jpg"
+   ],
+   "soon": false
+  },
+  "la creperia le peche gourmet": {
+   "logo": "images/locatarios/360.jpg",
+   "web": "https://www.creperia.com.mx/",
+   "soon": false
+  },
+  "lego": {
+   "logo": "images/locatarios/1196.jpg",
+   "ig": "https://www.instagram.com/legostoresmx/",
+   "fb": "https://www.facebook.com/LEGOStoresMx",
+   "web": "https://lego.juguetron.mx/",
+   "soon": false
+  },
+  "leo express": {
+   "img": "images/tiendas/leo-express/1.jpg",
+   "logo": "images/locatarios/939.jpg",
+   "fb": "https://www.facebook.com/GrupoLeoOficial/",
+   "imgs": [
+    "images/tiendas/leo-express/1.jpg"
+   ],
+   "soon": false
+  },
+  "levi's": {
+   "img": "images/tiendas/levi-s/1.jpg",
+   "logo": "images/locatarios/388.png",
+   "fb": "https://www.facebook.com/Levis.Mexico/",
+   "web": "http://www.levi.com.mx/mexico/",
+   "imgs": [
+    "images/tiendas/levi-s/1.jpg",
+    "images/tiendas/levi-s/2.jpg",
+    "images/tiendas/levi-s/3.jpg",
+    "images/tiendas/levi-s/4.jpg",
+    "images/tiendas/levi-s/5.jpg"
+   ],
+   "soon": false
+  },
+  "little caesars": {
+   "img": "images/tiendas/little-caesars/1.jpg",
+   "logo": "images/locatarios/938.jpg",
+   "ig": "https://www.instagram.com/littlecaesarsmx/",
+   "fb": "https://www.facebook.com/littlecaesarsMEX",
+   "web": "https://mexico.littlecaesars.com/es-mx/",
+   "imgs": [
+    "images/tiendas/little-caesars/1.jpg"
+   ],
+   "soon": false
+  },
+  "liverpool": {
+   "img": "images/tiendas/liverpool/1.jpg",
+   "logo": "images/locatarios/393.png",
+   "web": "http://www.liverpool.com.mx",
+   "imgs": [
+    "images/tiendas/liverpool/1.jpg",
+    "images/tiendas/liverpool/2.jpg",
+    "images/tiendas/liverpool/3.jpg",
+    "images/tiendas/liverpool/4.jpg",
+    "images/tiendas/liverpool/5.jpg",
+    "images/tiendas/liverpool/6.jpg"
+   ],
+   "soon": false
+  },
+  "lizminelli": {
+   "img": "images/tiendas/lizminelli/1.jpg",
+   "logo": "images/locatarios/394.jpg",
+   "fb": "https://www.facebook.com/LizMinelliMX/",
+   "web": "http://www.lizminelli.com/",
+   "imgs": [
+    "images/tiendas/lizminelli/1.jpg",
+    "images/tiendas/lizminelli/2.jpg",
+    "images/tiendas/lizminelli/3.jpg"
+   ],
+   "soon": false
+  },
+  "lob": {
+   "img": "images/tiendas/lob/1.jpg",
+   "logo": "images/locatarios/395.jpg",
+   "ig": "https://www.instagram.com/lobmoda/",
+   "fb": "https://www.facebook.com/lob.com.mx/",
+   "web": "http://www.lob.com.mx/",
+   "imgs": [
+    "images/tiendas/lob/1.jpg",
+    "images/tiendas/lob/2.jpg",
+    "images/tiendas/lob/3.jpg",
+    "images/tiendas/lob/4.jpg"
+   ],
+   "soon": false
+  },
+  "lob footwear": {
+   "img": "images/tiendas/lob-footwear/1.jpg",
+   "logo": "images/locatarios/397.png",
+   "fb": "https://www.facebook.com/profile.php?id=100071034265196&mibextid=LQQJ4d",
+   "web": "http://www.lobfw.com/",
+   "imgs": [
+    "images/tiendas/lob-footwear/1.jpg",
+    "images/tiendas/lob-footwear/2.jpg",
+    "images/tiendas/lob-footwear/3.jpg",
+    "images/tiendas/lob-footwear/4.jpg"
+   ],
+   "soon": false
+  },
+  "luuna": {
+   "img": "images/tiendas/luuna/1.jpg",
+   "logo": "images/locatarios/1045.png",
+   "web": "https://luuna.mx/",
+   "imgs": [
+    "images/tiendas/luuna/1.jpg",
+    "images/tiendas/luuna/2.jpg",
+    "images/tiendas/luuna/3.jpg",
+    "images/tiendas/luuna/4.jpg",
+    "images/tiendas/luuna/5.jpg"
+   ],
+   "soon": false
+  },
+  "macropay": {
+   "img": "images/tiendas/macropay/1.jpg",
+   "logo": "images/locatarios/1016.jpg",
+   "ig": "https://www.instagram.com/macropayoficial_mx/",
+   "fb": "https://www.facebook.com/MacropayOficial/",
+   "web": "www.macropay.mx",
+   "imgs": [
+    "images/tiendas/macropay/1.jpg",
+    "images/tiendas/macropay/2.jpg"
+   ],
+   "soon": false
+  },
+  "maina": {
+   "img": "images/tiendas/maina/1.jpg",
+   "logo": "images/locatarios/943.jpg",
+   "fb": "https://www.facebook.com/mainachurrascaria/?rf=436557249793388",
+   "imgs": [
+    "images/tiendas/maina/1.jpg",
+    "images/tiendas/maina/2.jpg"
+   ],
+   "soon": false
+  },
+  "mariscos la concordia": {
+   "img": "images/tiendas/mariscos-la-concordia/1.jpg",
+   "logo": "images/locatarios/942.jpg",
+   "ig": "https://www.instagram.com/mariscoslaconcordia/?hl=en",
+   "fb": "https://www.facebook.com/mariscoslaconcordia/",
+   "imgs": [
+    "images/tiendas/mariscos-la-concordia/1.jpg",
+    "images/tiendas/mariscos-la-concordia/2.jpg",
+    "images/tiendas/mariscos-la-concordia/3.jpg",
+    "images/tiendas/mariscos-la-concordia/4.jpg"
+   ],
+   "soon": false
+  },
+  "marti": {
+   "img": "images/tiendas/marti/1.jpg",
+   "logo": "images/locatarios/416.jpg",
+   "fb": "https://www.facebook.com/DeportesMarti",
+   "web": "http://www.marti.mx/",
+   "imgs": [
+    "images/tiendas/marti/1.jpg",
+    "images/tiendas/marti/2.jpg",
+    "images/tiendas/marti/3.jpg"
+   ],
+   "soon": false
+  },
+  "match point": {
+   "img": "images/tiendas/match-point/1.jpg",
+   "logo": "images/locatarios/420.png",
+   "web": "https://matchpointsportsadecv.mercadoshops.com.mx/",
+   "imgs": [
+    "images/tiendas/match-point/1.jpg",
+    "images/tiendas/match-point/2.jpg",
+    "images/tiendas/match-point/3.jpg"
+   ],
+   "soon": false
+  },
+  "mc donald's": {
+   "img": "images/tiendas/mc-donald-s/1.jpg",
+   "logo": "images/locatarios/423.jpg",
+   "fb": "https://www.facebook.com/McDonaldsMexico/",
+   "web": "http://www.mcdonalds.com.mx/",
+   "imgs": [
+    "images/tiendas/mc-donald-s/1.jpg",
+    "images/tiendas/mc-donald-s/2.jpg",
+    "images/tiendas/mc-donald-s/3.jpg",
+    "images/tiendas/mc-donald-s/4.jpg",
+    "images/tiendas/mc-donald-s/5.jpg",
+    "images/tiendas/mc-donald-s/6.jpg"
+   ],
+   "soon": false
+  },
+  "melissa": {
+   "img": "images/tiendas/melissa/1.jpg",
+   "logo": "images/locatarios/424.jpg",
+   "ig": "https://www.instagram.com/melissa.villahermosa/",
+   "fb": "https://www.facebook.com/MelissaShoesMx",
+   "web": "https://melissa.com.mx/",
+   "imgs": [
+    "images/tiendas/melissa/1.jpg",
+    "images/tiendas/melissa/2.jpg",
+    "images/tiendas/melissa/3.jpg",
+    "images/tiendas/melissa/4.jpg"
+   ],
+   "soon": false
+  },
+  "michelle": {
+   "logo": "images/locatarios/430.jpg",
+   "web": "http://www.michelle.com.mx/",
+   "soon": false
+  },
+  "miniso": {
+   "img": "images/tiendas/miniso/1.jpg",
+   "logo": "images/locatarios/434.jpg",
+   "fb": "https://www.facebook.com/MinisoMexico/",
+   "web": "https://miniso.com.mx/",
+   "imgs": [
+    "images/tiendas/miniso/1.jpg",
+    "images/tiendas/miniso/2.jpg",
+    "images/tiendas/miniso/3.jpg",
+    "images/tiendas/miniso/4.jpg",
+    "images/tiendas/miniso/5.jpg",
+    "images/tiendas/miniso/6.jpg",
+    "images/tiendas/miniso/7.jpg",
+    "images/tiendas/miniso/8.jpg",
+    "images/tiendas/miniso/9.jpg",
+    "images/tiendas/miniso/10.jpg",
+    "images/tiendas/miniso/11.jpg",
+    "images/tiendas/miniso/12.jpg",
+    "images/tiendas/miniso/13.jpg",
+    "images/tiendas/miniso/14.jpg",
+    "images/tiendas/miniso/15.jpg",
+    "images/tiendas/miniso/16.jpg",
+    "images/tiendas/miniso/17.jpg",
+    "images/tiendas/miniso/18.jpg",
+    "images/tiendas/miniso/19.jpg"
+   ],
+   "soon": false
+  },
+  "mobo": {
+   "img": "images/tiendas/mobo/1.jpg",
+   "logo": "images/locatarios/440.jpg",
+   "fb": "https://www.facebook.com/MoboMexico/",
+   "web": "http://www.mobo.com.mx/",
+   "imgs": [
+    "images/tiendas/mobo/1.jpg",
+    "images/tiendas/mobo/2.jpg",
+    "images/tiendas/mobo/3.jpg"
+   ],
+   "soon": false
+  },
+  "new era": {
+   "img": "images/tiendas/new-era/1.jpg",
+   "logo": "images/locatarios/770.png",
+   "web": "www.newera.mx",
+   "imgs": [
+    "images/tiendas/new-era/1.jpg",
+    "images/tiendas/new-era/2.jpg",
+    "images/tiendas/new-era/3.jpg"
+   ],
+   "soon": false
+  },
+  "nine west": {
+   "img": "images/tiendas/nine-west/1.jpg",
+   "logo": "images/locatarios/466.jpg",
+   "fb": "https://www.facebook.com/ninewestmex/",
+   "web": "http://www.ninewestmexico.com/",
+   "imgs": [
+    "images/tiendas/nine-west/1.jpg",
+    "images/tiendas/nine-west/2.jpg",
+    "images/tiendas/nine-west/3.jpg",
+    "images/tiendas/nine-west/4.jpg"
+   ],
+   "soon": false
+  },
+  "nutrisa": {
+   "img": "images/tiendas/nutrisa/1.jpg",
+   "logo": "images/locatarios/468.png",
+   "fb": "https://www.facebook.com/NutrisaMx/",
+   "web": "http://www.nutrisa.com/",
+   "imgs": [
+    "images/tiendas/nutrisa/1.jpg",
+    "images/tiendas/nutrisa/2.jpg",
+    "images/tiendas/nutrisa/3.jpg",
+    "images/tiendas/nutrisa/4.jpg",
+    "images/tiendas/nutrisa/5.jpg",
+    "images/tiendas/nutrisa/6.jpg",
+    "images/tiendas/nutrisa/7.jpg",
+    "images/tiendas/nutrisa/8.jpg",
+    "images/tiendas/nutrisa/9.jpg"
+   ],
+   "soon": false
+  },
+  "optica americana": {
+   "logo": "images/locatarios/480.jpg",
+   "ig": "https://www.instagram.com/eopticos/",
+   "fb": "https://www.facebook.com/eopticos/",
+   "web": "http://www.especialistasopticos.com.mx",
+   "soon": false
+  },
+  "opticas lux": {
+   "img": "images/tiendas/opticas-lux/1.jpg",
+   "logo": "images/locatarios/486.jpg",
+   "fb": "https://www.facebook.com/lux.mx",
+   "web": "http://www.lux.mx/",
+   "imgs": [
+    "images/tiendas/opticas-lux/1.jpg",
+    "images/tiendas/opticas-lux/2.jpg",
+    "images/tiendas/opticas-lux/3.jpg"
+   ],
+   "soon": false
+  },
+  "pandora": {
+   "img": "images/tiendas/pandora/1.jpg",
+   "logo": "images/locatarios/497.png",
+   "fb": "https://www.facebook.com/PandoraMexicoOficial/",
+   "web": "https://www.pandoraoficial.com.mx/",
+   "imgs": [
+    "images/tiendas/pandora/1.jpg",
+    "images/tiendas/pandora/2.jpg",
+    "images/tiendas/pandora/3.jpg"
+   ],
+   "soon": false
+  },
+  "petco": {
+   "img": "images/tiendas/petco/1.jpg",
+   "logo": "images/locatarios/934.jpg",
+   "fb": "https://www.facebook.com/Petco.Mexico/",
+   "web": "http://www.petco.com.mx/",
+   "imgs": [
+    "images/tiendas/petco/1.jpg"
+   ],
+   "soon": false
+  },
+  "piccolo mondo": {
+   "img": "images/tiendas/piccolo-mondo/1.jpg",
+   "logo": "images/locatarios/512.png",
+   "web": "https://www.piccolomondo.com.mx/",
+   "imgs": [
+    "images/tiendas/piccolo-mondo/1.jpg",
+    "images/tiendas/piccolo-mondo/2.jpg",
+    "images/tiendas/piccolo-mondo/3.jpg"
+   ],
+   "soon": false
+  },
+  "pirma": {
+   "logo": "images/locatarios/518.jpg",
+   "web": "http://www.pirma.com.mx",
+   "soon": false
+  },
+  "prada": {
+   "img": "images/tiendas/prada/1.jpg",
+   "logo": "images/locatarios/525.jpg",
+   "web": "https://prada.mx/",
+   "imgs": [
+    "images/tiendas/prada/1.jpg",
+    "images/tiendas/prada/2.jpg",
+    "images/tiendas/prada/3.jpg"
+   ],
+   "soon": false
+  },
+  "pull & bear": {
+   "img": "images/tiendas/pull-bear/1.jpg",
+   "logo": "images/locatarios/534.jpg",
+   "fb": "https://www.facebook.com/pullandbear",
+   "web": "https://www.pullandbear.com/mx/",
+   "imgs": [
+    "images/tiendas/pull-bear/1.jpg"
+   ],
+   "soon": false
+  },
+  "quarry": {
+   "img": "images/tiendas/quarry/1.jpg",
+   "logo": "images/locatarios/538.jpg",
+   "fb": "https://www.facebook.com/QuarryJeansOfficial/",
+   "web": "http://www.quarry.com.mx/",
+   "imgs": [
+    "images/tiendas/quarry/1.jpg",
+    "images/tiendas/quarry/2.jpg",
+    "images/tiendas/quarry/3.jpg",
+    "images/tiendas/quarry/4.jpg",
+    "images/tiendas/quarry/5.jpg"
+   ],
+   "soon": false
+  },
+  "recorcholis": {
+   "img": "images/tiendas/recorcholis/1.jpg",
+   "logo": "images/locatarios/545.png",
+   "fb": "https://www.facebook.com/RECORCHOLISoficial",
+   "web": "http://www.recorcholis.com.mx/",
+   "imgs": [
+    "images/tiendas/recorcholis/1.jpg",
+    "images/tiendas/recorcholis/2.jpg",
+    "images/tiendas/recorcholis/3.jpg"
+   ],
+   "soon": false
+  },
+  "sally beauty supply": {
+   "img": "images/tiendas/sally-beauty-supply/1.jpg",
+   "logo": "images/locatarios/562.jpg",
+   "fb": "https://www.facebook.com/SallyMexico/",
+   "web": "http://www.sallymexico.com/",
+   "imgs": [
+    "images/tiendas/sally-beauty-supply/1.jpg",
+    "images/tiendas/sally-beauty-supply/2.jpg",
+    "images/tiendas/sally-beauty-supply/3.jpg",
+    "images/tiendas/sally-beauty-supply/4.jpg",
+    "images/tiendas/sally-beauty-supply/5.jpg",
+    "images/tiendas/sally-beauty-supply/6.jpg",
+    "images/tiendas/sally-beauty-supply/7.jpg"
+   ],
+   "soon": false
+  },
+  "samsung store": {
+   "img": "images/tiendas/samsung-store/1.jpg",
+   "logo": "images/locatarios/852.jpg",
+   "web": "http://www.samsung.com/mx/samsung-experience-store/about/",
+   "imgs": [
+    "images/tiendas/samsung-store/1.jpg",
+    "images/tiendas/samsung-store/2.jpg"
+   ],
+   "soon": false
+  },
+  "sanborns": {
+   "img": "images/tiendas/sanborns/1.jpg",
+   "logo": "images/locatarios/565.png",
+   "ig": "https://www.instagram.com/solosanborns/",
+   "fb": "https://www.facebook.com/solosanborns/",
+   "web": "http://www.sanborns.com.mx/",
+   "imgs": [
+    "images/tiendas/sanborns/1.jpg",
+    "images/tiendas/sanborns/2.jpg",
+    "images/tiendas/sanborns/3.jpg",
+    "images/tiendas/sanborns/4.jpg",
+    "images/tiendas/sanborns/5.jpg",
+    "images/tiendas/sanborns/6.jpg",
+    "images/tiendas/sanborns/7.jpg",
+    "images/tiendas/sanborns/8.jpg"
+   ],
+   "soon": false
+  },
+  "santa clara": {
+   "img": "images/tiendas/santa-clara/1.jpg",
+   "logo": "images/locatarios/566.jpg",
+   "fb": "https://www.facebook.com/SantaClaraMex/",
+   "web": "http://www.santaclara.com.mx/",
+   "imgs": [
+    "images/tiendas/santa-clara/1.jpg",
+    "images/tiendas/santa-clara/2.jpg",
+    "images/tiendas/santa-clara/3.jpg"
+   ],
+   "soon": false
+  },
+  "sears": {
+   "img": "images/tiendas/sears/1.jpg",
+   "logo": "images/locatarios/573.jpg",
+   "web": "http://www.sears.com.mx",
+   "imgs": [
+    "images/tiendas/sears/1.jpg",
+    "images/tiendas/sears/2.jpg",
+    "images/tiendas/sears/3.jpg",
+    "images/tiendas/sears/4.jpg",
+    "images/tiendas/sears/5.jpg",
+    "images/tiendas/sears/6.jpg",
+    "images/tiendas/sears/7.jpg"
+   ],
+   "soon": false
+  },
+  "sensei sushi bar villahermosa": {
+   "ig": "https://www.instagram.com/senseivhsa?fbclid=IwY2xjawRA2Z5leHRuA2FlbQIxMABicmlkETFUSUJqSk5HNWNmRXV4aU53c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHpLCwsdEtXaY_xNJMp9dK_3ecGORv9raUwGyITrxP7txUPe_7q9_uqQqP9bq_aem_6YuRmFHuE5GnDjTWUN04YA",
+   "fb": "https://www.facebook.com/share/1LJyk3cNRf/?mibextid=wwXIfr",
+   "soon": false
+  },
+  "sexy jeans": {
+   "logo": "images/locatarios/577.jpg",
+   "web": "http://www.sexyjeans.com.mx/",
+   "soon": false
+  },
+  "sfera": {
+   "logo": "images/locatarios/578.jpg",
+   "web": "http://www.sfera.com/",
+   "soon": false
+  },
+  "shasa": {
+   "img": "images/tiendas/shasa/1.jpg",
+   "logo": "images/locatarios/581.jpg",
+   "ig": "https://www.instagram.com/shasa_mx/?hl=es",
+   "fb": "https://www.facebook.com/shasa.brand/",
+   "web": "https://shasa.com/",
+   "imgs": [
+    "images/tiendas/shasa/1.jpg",
+    "images/tiendas/shasa/2.jpg",
+    "images/tiendas/shasa/3.jpg",
+    "images/tiendas/shasa/4.jpg"
+   ],
+   "soon": false
+  },
+  "skechers": {
+   "img": "images/tiendas/skechers/1.jpg",
+   "logo": "images/locatarios/587.jpg",
+   "ig": "https://www.instagram.com/skechersmexico/",
+   "fb": "https://www.facebook.com/skechersmexico",
+   "web": "http://www.skechers.com.mx/",
+   "imgs": [
+    "images/tiendas/skechers/1.jpg",
+    "images/tiendas/skechers/2.jpg",
+    "images/tiendas/skechers/3.jpg",
+    "images/tiendas/skechers/4.jpg",
+    "images/tiendas/skechers/5.jpg",
+    "images/tiendas/skechers/6.jpg"
+   ],
+   "soon": false
+  },
+  "smart bamboo": {
+   "img": "images/tiendas/smart-bamboo/1.jpg",
+   "logo": "images/locatarios/857.jpg",
+   "imgs": [
+    "images/tiendas/smart-bamboo/1.jpg",
+    "images/tiendas/smart-bamboo/2.jpg"
+   ],
+   "soon": false
+  },
+  "soho": {
+   "img": "images/tiendas/soho/1.jpg",
+   "logo": "images/locatarios/595.jpg",
+   "web": "http://soho.com.mx/",
+   "imgs": [
+    "images/tiendas/soho/1.jpg",
+    "images/tiendas/soho/2.jpg",
+    "images/tiendas/soho/3.jpg",
+    "images/tiendas/soho/4.jpg",
+    "images/tiendas/soho/5.jpg",
+    "images/tiendas/soho/6.jpg"
+   ],
+   "soon": false
+  },
+  "stax": {
+   "img": "images/tiendas/stax/1.jpg",
+   "imgs": [
+    "images/tiendas/stax/1.jpg"
+   ],
+   "soon": false
+  },
+  "steren shop": {
+   "img": "images/tiendas/steren-shop/1.jpg",
+   "logo": "images/locatarios/616.jpg",
+   "fb": "https://www.facebook.com/Steren.Mexico/",
+   "web": "http://www.steren.mx",
+   "imgs": [
+    "images/tiendas/steren-shop/1.jpg",
+    "images/tiendas/steren-shop/2.jpg",
+    "images/tiendas/steren-shop/3.jpg",
+    "images/tiendas/steren-shop/4.jpg",
+    "images/tiendas/steren-shop/5.jpg",
+    "images/tiendas/steren-shop/6.jpg",
+    "images/tiendas/steren-shop/7.jpg",
+    "images/tiendas/steren-shop/8.jpg",
+    "images/tiendas/steren-shop/9.jpg",
+    "images/tiendas/steren-shop/10.jpg",
+    "images/tiendas/steren-shop/11.jpg",
+    "images/tiendas/steren-shop/12.jpg"
+   ],
+   "soon": false
+  },
+  "stock mobile": {
+   "img": "images/tiendas/stock-mobile/1.jpg",
+   "logo": "images/locatarios/1017.jpg",
+   "ig": "https://www.instagram.com/stockmobileshop/",
+   "fb": "https://www.facebook.com/stockmobileshop",
+   "web": "www.stockmobileshop.com",
+   "imgs": [
+    "images/tiendas/stock-mobile/1.jpg",
+    "images/tiendas/stock-mobile/2.jpg"
+   ],
+   "soon": false
+  },
+  "studio f": {
+   "img": "images/tiendas/studio-f/1.jpg",
+   "logo": "images/locatarios/621.jpg",
+   "fb": "https://www.facebook.com/studiofinternational",
+   "web": "https://www.studiofmexico.com/",
+   "imgs": [
+    "images/tiendas/studio-f/1.jpg",
+    "images/tiendas/studio-f/2.jpg",
+    "images/tiendas/studio-f/3.jpg"
+   ],
+   "soon": false
+  },
+  "stylo zapaterias": {
+   "img": "images/tiendas/stylo-zapaterias/1.jpg",
+   "logo": "images/locatarios/625.jpg",
+   "web": "http://www.stylozapaterias.com/",
+   "imgs": [
+    "images/tiendas/stylo-zapaterias/1.jpg",
+    "images/tiendas/stylo-zapaterias/2.jpg"
+   ],
+   "soon": false
+  },
+  "sunglass hut": {
+   "logo": "images/locatarios/629.png",
+   "fb": "https://www.facebook.com/sunglasshutmx/?brand_redir=159088568428",
+   "web": "http://mx.sunglasshut.com/mx",
+   "soon": false
+  },
+  "sushi roll": {
+   "img": "images/tiendas/sushi-roll/1.jpg",
+   "logo": "images/locatarios/636.png",
+   "web": "http://www.sushiroll.com.mx/",
+   "imgs": [
+    "images/tiendas/sushi-roll/1.jpg",
+    "images/tiendas/sushi-roll/2.jpg",
+    "images/tiendas/sushi-roll/3.jpg"
+   ],
+   "soon": false
+  },
+  "swarovski": {
+   "img": "images/tiendas/swarovski/1.jpg",
+   "logo": "images/locatarios/639.jpg",
+   "fb": "https://www.facebook.com/SWAROVSKI.MX",
+   "web": "www.swarovski.com.mx",
+   "imgs": [
+    "images/tiendas/swarovski/1.jpg",
+    "images/tiendas/swarovski/2.jpg",
+    "images/tiendas/swarovski/3.jpg"
+   ],
+   "soon": false
+  },
+  "taf": {
+   "img": "images/tiendas/taf/1.jpg",
+   "logo": "images/locatarios/646.jpg",
+   "ig": "https://www.instagram.com/tafmx/",
+   "fb": "https://www.facebook.com/tafmexico",
+   "web": "http://www.taf.com.mx/",
+   "imgs": [
+    "images/tiendas/taf/1.jpg",
+    "images/tiendas/taf/2.jpg",
+    "images/tiendas/taf/3.jpg",
+    "images/tiendas/taf/4.jpg",
+    "images/tiendas/taf/5.jpg",
+    "images/tiendas/taf/6.jpg"
+   ],
+   "soon": false
+  },
+  "telcel": {
+   "img": "images/tiendas/telcel/1.jpg",
+   "logo": "images/locatarios/655.jpg",
+   "fb": "https://www.facebook.com/Telcel?_rdc=2&_rdr",
+   "web": "http://www.telcel.com",
+   "imgs": [
+    "images/tiendas/telcel/1.jpg",
+    "images/tiendas/telcel/2.jpg",
+    "images/tiendas/telcel/3.jpg"
+   ],
+   "soon": false
+  },
+  "todomoda": {
+   "img": "images/tiendas/todomoda/1.jpg",
+   "logo": "images/locatarios/668.png",
+   "web": "http://www.todomoda.com/mexico/",
+   "imgs": [
+    "images/tiendas/todomoda/1.jpg",
+    "images/tiendas/todomoda/2.jpg",
+    "images/tiendas/todomoda/3.jpg",
+    "images/tiendas/todomoda/4.jpg",
+    "images/tiendas/todomoda/5.jpg",
+    "images/tiendas/todomoda/6.jpg",
+    "images/tiendas/todomoda/7.jpg",
+    "images/tiendas/todomoda/8.jpg",
+    "images/tiendas/todomoda/9.jpg",
+    "images/tiendas/todomoda/10.jpg",
+    "images/tiendas/todomoda/11.jpg"
+   ],
+   "soon": false
+  },
+  "tommy hilfiger": {
+   "img": "images/tiendas/tommy-hilfiger/1.jpg",
+   "logo": "images/locatarios/669.png",
+   "fb": "https://www.facebook.com/tommyhilfiger/",
+   "web": "https://mx.tommy.com/",
+   "imgs": [
+    "images/tiendas/tommy-hilfiger/1.jpg",
+    "images/tiendas/tommy-hilfiger/2.jpg",
+    "images/tiendas/tommy-hilfiger/3.jpg"
+   ],
+   "soon": false
+  },
+  "tweezer": {
+   "logo": "images/locatarios/878.jpg",
+   "web": "https://www.tweezer.com.mx",
+   "soon": false
+  },
+  "wings stop": {
+   "img": "images/tiendas/wings-stop/1.jpg",
+   "logo": "images/locatarios/714.jpg",
+   "fb": "https://www.facebook.com/wingstopvillahermosa/",
+   "imgs": [
+    "images/tiendas/wings-stop/1.jpg"
+   ],
+   "soon": false
+  },
+  "ying pin": {
+   "soon": false
+  },
+  "zara": {
+   "logo": "images/locatarios/729.jpg",
+   "fb": "https://www.facebook.com/ZARA-M%C3%A9xico-168812106561239/",
+   "web": "http://www.zara.com/mx/",
+   "soon": false
+  }
+ },
+ "pubs": {}
+}

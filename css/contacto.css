@@ -1,0 +1,37 @@
+/* Contacto: complementos de página (el resto vive en site.css) */
+
+.contact-grid { align-items: start; }
+.ct-info .h-section, .ct-form .h-section { margin-bottom: var(--s5); }
+.ct-list { margin: 0; border-top: 1px solid var(--ink); }
+.ct-row { display: grid; grid-template-columns: 130px 1fr; gap: var(--s3); padding: var(--s4) 0; border-bottom: 1px solid var(--line); }
+.ct-row dt { font-family: var(--f-display); font-weight: 500; font-size: var(--fs-xs); letter-spacing: var(--track); text-transform: uppercase; color: var(--grey-text); padding-top: 4px; }
+.ct-row dd { margin: 0; font-size: var(--fs-md); line-height: 1.55; color: var(--ink-soft); overflow-wrap: anywhere; }
+.ct-row dd a { color: var(--ink); border-bottom: 1px solid var(--line); transition: border-color .2s; }
+.ct-row dd a:hover { border-color: var(--ink); }
+.ct-row dd .social a { border: 1px solid currentColor; }
+.ct-tels { display: flex; flex-wrap: wrap; gap: 4px 24px; }
+.ct-tels a, .ct-row dd > a { display: inline-block; padding: 10px 0; margin: -10px 0; }
+.ct-route { margin-top: var(--s5); }
+
+.ct-form .form { gap: var(--s4); }
+.ct-actions { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s3) var(--s4); margin-top: var(--s2); }
+.form-msg { margin: 0; color: var(--ink); }
+.form-msg:empty { display: none; }
+
+.ct-map-section .h-section { margin-bottom: var(--s5); }
+.ct-map { border: 1px solid var(--line); }
+
+.ct-rent { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr); gap: clamp(28px, 5vw, 80px); align-items: start; }
+.ct-rent__mail { margin: var(--s4) 0 0; font-size: var(--fs-md); overflow-wrap: anywhere; }
+.ct-rent__mail a { border-bottom: 1px solid var(--ink); padding: 10px 0; }
+.ct-rent textarea.field { min-height: 110px; }
+.ct-pair { display: grid; grid-template-columns: 1fr 1fr; gap: var(--s4); }
+
+@media (max-width: 899px) {
+  .ct-rent { grid-template-columns: 1fr; }
+}
+@media (max-width: 599px) {
+  .ct-row { grid-template-columns: 1fr; gap: 6px; }
+  .ct-pair { grid-template-columns: 1fr; }
+  .ct-actions .btn { flex: 1 1 100%; }
+}
