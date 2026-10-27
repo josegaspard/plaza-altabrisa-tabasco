@@ -530,10 +530,3 @@ textarea.field:focus { border-color: var(--ink); }
 .aerials__item:hover img { transform: scale(1.05); }
 .aerials__item:hover::after { inset: clamp(14px, 1.8vw, 22px); }
 @media (max-width: 760px) { .aerials { grid-template-columns: repeat(2, 1fr); } }
-
-/* Directorio: tarjeta con foto real de la tienda */
-.store-card--photo { overflow: hidden; }
-.store-card--photo .store-card__photo { position: absolute; inset: 0; width: 100%; height: 100%; max-width: none; max-height: none; object-fit: cover; transition: transform .6s var(--ease-out); }
-.store-card--photo .store-card__name { opacity: 1; transform: none; color: #fff; border-top: 0; padding: 36px 14px 12px; background: linear-gradient(to top, rgba(17,17,17,.85), rgba(17,17,17,.2) 62%, rgba(17,17,17,0)); }
-.store-card--photo:hover .store-card__photo { transform: scale(1.06); }
-.store-card--photo:hover::before { border-color: rgba(255,255,255,.55); inset: 14px; }
