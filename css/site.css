@@ -505,3 +505,28 @@ textarea.field:focus { border-color: var(--ink); }
   *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; animation-delay: 0s !important; }
   .js .reveal, .js .reveal.firma, .js .reveal :is(.access__img, .firma-in), .js .reveal.firma img, .js .reveal.firma .firma__label { opacity: 1; transform: none; clip-path: none; }
 }
+
+/* ---------- Galería de la plaza (fotografía real + dron) ---------- */
+.gallery { columns: 3 260px; column-gap: var(--gap); }
+.gallery__item { position: relative; display: block; width: 100%; margin: 0 0 var(--gap); break-inside: avoid; overflow: hidden; background: var(--mist); cursor: zoom-in; }
+.gallery__item img { display: block; width: 100%; height: auto; filter: var(--photo); transition: transform 1.4s var(--ease-out); }
+.gallery__item::after { content: ""; position: absolute; inset: clamp(10px, 1.4vw, 18px); border: 1px solid var(--frame-light); pointer-events: none; transition: inset .5s var(--ease-out); }
+.gallery__item:hover img { transform: scale(1.04); }
+.gallery__item:hover::after { inset: clamp(16px, 2vw, 26px); }
+@media (max-width: 560px) { .gallery { columns: 2 150px; } }
+
+/* Panorámica aérea a todo el ancho */
+.pano { position: relative; width: 100vw; margin-inline: calc(50% - 50vw); margin-top: var(--s7); overflow: hidden; background: var(--ink); cursor: zoom-in; }
+.pano img { display: block; width: 100%; height: clamp(240px, 42vw, 620px); object-fit: cover; filter: var(--photo-night); transition: transform 2s var(--ease-out); }
+.pano:hover img { transform: scale(1.03); }
+.pano__cap { position: absolute; left: var(--gutter); bottom: clamp(16px, 3vw, 34px); color: var(--paper); font-family: var(--f-display); font-weight: 300; font-size: var(--fs-lg); letter-spacing: .01em; text-shadow: 0 1px 24px rgba(0,0,0,.5); }
+.pano__cap span { display: block; font-size: var(--fs-xs); font-weight: 500; letter-spacing: var(--track); text-transform: uppercase; color: var(--grey); margin-bottom: 6px; }
+
+/* Rejilla de vistas aéreas */
+.aerials { display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--gap); margin-top: var(--s6); }
+.aerials__item { position: relative; display: block; aspect-ratio: 3 / 2; overflow: hidden; background: var(--mist); cursor: zoom-in; }
+.aerials__item img { width: 100%; height: 100%; object-fit: cover; filter: var(--photo-night); transition: transform 1.4s var(--ease-out); }
+.aerials__item::after { content: ""; position: absolute; inset: clamp(8px, 1.2vw, 14px); border: 1px solid var(--frame-light); pointer-events: none; transition: inset .5s var(--ease-out); }
+.aerials__item:hover img { transform: scale(1.05); }
+.aerials__item:hover::after { inset: clamp(14px, 1.8vw, 22px); }
+@media (max-width: 760px) { .aerials { grid-template-columns: repeat(2, 1fr); } }
