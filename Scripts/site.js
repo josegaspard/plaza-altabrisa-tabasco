@@ -74,9 +74,15 @@
   }
 
   /* ---------- Tarjeta de tienda ---------- */
-  function cardHTML(s, i) {
+  function cardHTML(s, i, withPhoto) {
     var name = val(s.name) || 'Tienda';
+    var photo = withPhoto ? val(s.img) : '';
     var logo = val(s.logo);
+    if (photo) {
+      return '<button type="button" class="store-card store-card--photo" data-i="' + i + '" aria-label="' + esc(name) + '">' +
+        '<img class="store-card__photo" src="' + esc(photo) + '" alt="" loading="lazy" decoding="async">' +
+        '<span class="store-card__name">' + esc(name) + '</span></button>';
+    }
     var inner = logo
       ? '<img src="' + esc(logo) + '" alt="' + esc(name) + '" loading="lazy" decoding="async">'
       : '<span class="store-card__txt">' + esc(name) + '</span>';
@@ -139,7 +145,7 @@
         if (state.q && (norm(s.name) + ' ' + norm(s.cat)).indexOf(state.q) === -1) return false;
         return true;
       });
-      grid.innerHTML = list.map(function (i) { return cardHTML(stores[i], i); }).join('');
+      grid.innerHTML = list.map(function (i) { return cardHTML(stores[i], i, true); }).join('');
       if (count) count.textContent = list.length === 1 ? '1 tienda' : list.length + ' tiendas';
       var empty = $('#dirEmpty');
       if (empty) empty.hidden = list.length > 0;
